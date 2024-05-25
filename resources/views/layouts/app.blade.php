@@ -151,29 +151,7 @@
 
 
     <script src="appassets/js/main.js"></script>
-    <script type="module">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-app.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-analytics.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-        apiKey: "AIzaSyDColgXgqCk8cIE42DxarV9w1OiPyaXdFk",
-        authDomain: "kerawa-space.firebaseapp.com",
-        projectId: "kerawa-space",
-        storageBucket: "kerawa-space.appspot.com",
-        messagingSenderId: "23960598043",
-        appId: "1:23960598043:web:36298e29f1d1740c892abe",
-        measurementId: "G-NPLHHT54ER"
-    };
-
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-    </script>
+    
 </body>
 
 </html>

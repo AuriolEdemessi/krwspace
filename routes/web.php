@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MediaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +22,13 @@ Route::get('/projects', function () {
     return view('projects');
 });
 
+
+
 Auth::routes();
+
+
+Route::post('/upload', [MediaController::class, 'upload']);
+Route::get('/media/{key}', [MediaController::class, 'getMedia']);
+
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
